@@ -1,0 +1,182 @@
+@font-face {
+  font-family: 'Silom';
+  src: url("../fonts/Silom.ttf");
+  src: url("../fonts/silom_regular.ttf");
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+header{ 
+  height: 75px;
+}
+.logo {
+  margin-left: 80px;
+  margin-top: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+}
+
+.digimon {
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 18px
+}
+
+.clearfix:after {
+  
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.navigation {
+  float: right;
+  text-align: center;
+  line-height: 1px;
+  list-style: none;
+  margin-right: 90px
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 25px 15px;
+  color: #487798;
+  font-family: 'Silom';
+}
+
+nav ul li:hover {
+  color: #F2A335;
+  border-bottom: 3px solid;
+  padding-bottom: 15px;
+}
+
+.container {
+  display: block;
+  background-color: #15598B;
+  height: 520px;
+}
+
+.talkiediv {
+  float: left;
+  background-color: white;
+  border-radius: 15px;
+  width: 39%;
+  height: 45%;
+  position: relative;
+  top: 100px;
+  left: 43px;
+  border: 1px #999999 solid;
+}
+
+.talkietitle {
+  text-align: center;
+  color: #487798;
+  font-family: Silom;
+}
+
+hr {
+  position: relative;
+  bottom: 7px;
+}
+
+.talkieinfo {
+  float: left;
+  width: 57%;
+  margin: 15px;
+  padding: 10px;
+}
+
+.talkie {
+  margin-top: 15px
+}
+
+.hero {
+  background-repeat: no-repeat;
+  background-position: right;
+  background-image: url('../assets/');
+  position: relative;
+  bottom: 190px;
+  left: 260px;
+}
+
+.bottom {
+  background-color: #D3D3D3;
+  height: 310px;
+}
+
+.first {
+  border-radius: 15px;
+  background-color: white;
+  display: inline-block;
+  margin-top: 37px;
+  margin-left: 75px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 230px;
+  border: 2px #999999 solid;
+  box-shadow: 1px 1px 2px gray;
+  float: left;
+  width: 300px;
+}
+
+.first h2 {
+  color: #487798;
+  font-family: Silom;
+  text-align: center;
+}
+
+.second {
+  border-radius: 15px;
+  background-color: white;
+  display: inline-block;
+  margin-top: 37px;
+  margin-left: 35px;
+  margin-right: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 230px;
+  border: 2px #999999 solid;
+  box-shadow: 1px 1px 2px gray;
+  width: 300px;
+}
+
+.second h2 {
+  color: #487798;
+  font-family: Silom;
+  text-align: center;
+}
+
+.third {
+  border-radius: 15px;
+  background-color: white;
+  display: inline-block;
+  margin-top: 37px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 230px;
+  border: 2px #999999 solid;
+  box-shadow: 1px 1px 2px gray;
+  width: 300px;
+}
+
+.third h2 {
+  color: #487798;
+  font-family: Silom;
+  text-align: center;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  background-color: #4A4A4A;
+  height: 50px;
+  font-family: Silom;
+}
